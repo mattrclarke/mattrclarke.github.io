@@ -7,6 +7,18 @@ Up and running
 
 grid:
   [*1..size].product([*1..size]).each_slice(size).to_a
+  
+  def unlock(item)
+   unless item[:requires].include?(false)
+     item[:locked] = false
+     end
+   end
+
+   item = {
+     requires: [true, true],
+     locked: true
+   }
+
 
   
 ![_config.yml]({{ site.baseurl }}/images/config.png)
