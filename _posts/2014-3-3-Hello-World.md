@@ -134,7 +134,8 @@ grid:
    ruby calls to_proc on every method call
 
 
-   Strings
+### String Methods
+
    .include?
    .starts_with
    .ends_with
@@ -159,7 +160,9 @@ grid:
    # replace and squash, basically gsub
    .tr_s                   
 
-   Arrays
+### Array Methods
+
+
     # .& .* .+ .-                  # & will return unique elements from both array
    .assoc
    .bsearch
@@ -189,7 +192,7 @@ grid:
    b = a[3..-3] = "four to seven"
    b = [1, 2, 3, "four to seven", 8, 9]
 
-   Hashes
+### Hash Methods
    .keys                  # list all keys
    .each_with_object
    .values                # list all values
@@ -205,9 +208,9 @@ grid:
    Kernal
    .itself
 
-   Fibre
+### Fibre Methods
 
-   Loops
+### Loops
 
    loop do
      monk.meditate
