@@ -1,79 +1,79 @@
 ### String Methods
 
-
-## Searching
-
-.include?
-
+### .include?
 ```ruby
 "hello".include? "lo"   #=> true
 "hello".include? "ol"   #=> false
 "hello".include? ?h
 ```
 
-.starts_with
+### .starts_with
 ```ruby
 "hello"..starts_with? "lo"   #=> true
 
 ```
-.ends_with
+### .ends_with
 ```ruby
 "hello"..ends_with? "lo"   #=> true
 
 ```
-.index
+### .index
 ```ruby
 "hello".index? "lo"   #=> true
 
 ```
-.concat
+### .concat
 ```ruby
 "hello".concat "lo"   #=> true
 
 ```
-.reverse
+### .reverse
 ```ruby
 "hello".reverse? "lo"   #=> "olleh"
 
 ```
-.split
+### .split
 ```ruby
 "Returns an array or strings".split?
 #=> ['Returns', 'an', 'array', 'of', 'strings']
 ```
 
-.swapcase               
+### .swapcase               
 ```ruby
 "Returns an array or strings".split?
 # "ThIs WiLl Be SwApPeD"
 ```
-.sub                    
+### .sub                    
 ```ruby
 "Returns an array or strings".split?
 # "I should look into your problem when I get time".sub('I','We')
 ```
-.gsub                   
+### .gsub                   
 ```ruby
 "Returns an array or strings".split?
 # "I wasn't able to understand".gsub(/[aeiou]/, '1') - // = regex
 ```
-.match
-.squeeze                
+### .match
+
+### .squeeze                
 ```ruby
 "Returns an array or strings".split?
 # bring spaces down to 1 in length
 ```
-.squish                 
+
+### .squish                 
 ```ruby
 "Returns an array or strings".split?
 # bring spaces down to 0
 ```
-.tr                     
+
+### .tr                     
 ```ruby
 "Returns an array or strings".split?
 # replaces all characters that match
 ```
-.tr_s                   
+
+### .tr_s                   
 ```ruby
 "Returns an array or strings".split?
 # replace and squash, basically gsub
