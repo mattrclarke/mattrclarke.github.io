@@ -1,4 +1,4 @@
-### String Methods
+
 
 ### .include?
 ```ruby
