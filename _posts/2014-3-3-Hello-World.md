@@ -3,7 +3,7 @@ layout: post
 title: You're up and running!
 ---
 
-[a relative link](strings.md)
+(strings.md)
 ```ruby
 
 ```
