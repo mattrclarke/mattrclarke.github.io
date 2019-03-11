@@ -1,4 +1,7 @@
-
+---
+layout: post
+title: Ruby Strings
+---
 
 ### .include?
 ```ruby
