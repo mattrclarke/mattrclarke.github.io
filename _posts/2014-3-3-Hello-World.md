@@ -4,7 +4,7 @@ title: You're up and running!
 ---
 
 Up and running
-
+Inline `code` has `back-ticks around` it.
 grid:
   [*1..size].product([*1..size]).each_slice(size).to_a
 
