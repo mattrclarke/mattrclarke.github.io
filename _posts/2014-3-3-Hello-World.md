@@ -14,8 +14,6 @@ item = {
 1. This is the first item
 2. this is the second item
 
-
-Inline `code` has `back-ticks around` it.
 grid:
   [*1..size].product([*1..size]).each_slice(size).to_a
 
@@ -143,15 +141,23 @@ grid:
    .index
    .concat
    .reverse
-   .split                  #['returns', 'an', 'array', 'of', 'strings']
-   .swapcase               # "ThIs WiLl Be SwApPeD"
-   .sub                    # "I should look into your problem when I get time".sub('I','We')
-   .gsub                   # "I wasn't able to understand".gsub(/[aeiou]/, '1') - // = regex
+   # ['returns', 'an', 'array', 'of', 'strings']
+   .split                  
+   # "ThIs WiLl Be SwApPeD"
+   .swapcase               
+   # "I should look into your problem when I get time".sub('I','We')
+   .sub                    
+   # "I wasn't able to understand".gsub(/[aeiou]/, '1') - // = regex
+   .gsub                   
    .match
-   .squeeze                # bring spaces down to 1 in length
-   .squish                 # bring spaces down to 0
-   .tr                     # replaces all characters that match
-   .tr_s                   #replace and squash, basically gsub
+   # bring spaces down to 1 in length
+   .squeeze                
+   # bring spaces down to 0
+   .squish                 
+   # replaces all characters that match
+   .tr                     
+   # replace and squash, basically gsub
+   .tr_s                   
 
    Arrays
     # .& .* .+ .-                  # & will return unique elements from both array
