@@ -40,8 +40,8 @@
 
 ### .swapcase               
 ```ruby
-"Returns an array or strings".split?
-# "ThIs WiLl Be SwApPeD"
+"ThIs WiLl Be SwApPeD".swapcase
+ #=> "tHiS wIlL bE sWaPpEd".split?
 ```
 ### .sub                    
 ```ruby
