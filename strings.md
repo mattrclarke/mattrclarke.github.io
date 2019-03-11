@@ -36,27 +36,48 @@
 "hello".reverse? "lo"   #=> "olleh"
 
 ```
-# ['returns', 'an', 'array', 'of', 'strings']
 .split
 ```ruby
-"Returns an array or strings".split?   #=> ['returns', 'an', 'array', 'of', 'strings']
+"Returns an array or strings".split?
+#=> ['Returns', 'an', 'array', 'of', 'strings']
+```
 
-```            
-# "ThIs WiLl Be SwApPeD"
 .swapcase               
-# "I should look into your problem when I get time".sub('I','We')
+```ruby
+"Returns an array or strings".split?
+# "ThIs WiLl Be SwApPeD"
+```
 .sub                    
-# "I wasn't able to understand".gsub(/[aeiou]/, '1') - // = regex
+```ruby
+"Returns an array or strings".split?
+# "I should look into your problem when I get time".sub('I','We')
+```
 .gsub                   
+```ruby
+"Returns an array or strings".split?
+# "I wasn't able to understand".gsub(/[aeiou]/, '1') - // = regex
+```
 .match
-# bring spaces down to 1 in length
 .squeeze                
-# bring spaces down to 0
+```ruby
+"Returns an array or strings".split?
+# bring spaces down to 1 in length
+```
 .squish                 
-# replaces all characters that match
+```ruby
+"Returns an array or strings".split?
+# bring spaces down to 0
+```
 .tr                     
-# replace and squash, basically gsub
+```ruby
+"Returns an array or strings".split?
+# replaces all characters that match
+```
 .tr_s                   
+```ruby
+"Returns an array or strings".split?
+# replace and squash, basically gsub
+```
 
 
 ### Mutation
