@@ -2,6 +2,11 @@
 layout: post
 title: You're up and running!
 ---
+```ruby
+item = {
+  requires: [true, true],
+  locked: true
+}
 
 Inline `code` has `back-ticks around` it.
 grid:
@@ -13,10 +18,6 @@ grid:
      end
    end
 
-   item = {
-     requires: [true, true],
-     locked: true
-   }
 
 
    group_by can return an enum if the condition are more than true or false, like enumerator %3 rather than enumerator.odd?.
