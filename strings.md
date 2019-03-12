@@ -3,6 +3,29 @@ layout: post
 title: Ruby String Methods
 ---
 
+#### .concat
+Join two strings
+```ruby
+"hello".concat "there"   #=> hellothere
+```
+
+#### .starts_with
+Returns bool
+```ruby
+"hello"..starts_with? "lo" #=> false
+```
+
+#### .ends_with
+```ruby
+"hello"..ends_with? "lo"   #=> true
+```
+
+#### .index
+Show the index of the argument if matched
+```ruby
+'aaaaabaaaa'.index "b"   #=> 5
+```
+
 #### .include?
 Checks string for passed value
 ```ruby
@@ -11,29 +34,8 @@ Checks string for passed value
 "hello".include? ?h     #=> true
 ```
 
-#### .starts_with
-Returns bool
-```ruby
-"hello"..starts_with? "lo" #=> false
 
-```
-#### .ends_with
-```ruby
-"hello"..ends_with? "lo"   #=> true
 
-```
-#### .index
-Show the index of the argument if matched
-```ruby
-'aaaaabaaaa'.index "b"   #=> 5
-
-```
-#### .concat
-Join two strings
-```ruby
-"hello".concat "there"   #=> hellothere
-
-```
 #### .reverse
 Reverse the string
 ```ruby
@@ -59,6 +61,7 @@ Substitute the first matching element
 "I should look into your problem when I get time".sub('I','We')
 #=> "We should look into your problem when I get time"
 ```
+
 #### .gsub
 Substitute all matching elements
 ```ruby
@@ -68,7 +71,7 @@ Substitute all matching elements
 
 #### .match
 Converts pattern to a Regexp (if it isn’t already one), then invokes its match method on str. If the second parameter is present, it specifies the position in the string to begin the search.
-```ruby 
+```ruby
 'hello'.match('(.)\1')      #=> #<MatchData "ll" 1:"l">
 'hello'.match('(.)\1')[0]   #=> "ll"
 'hello'.match(/(.)\1/)[0]   #=> "ll"
