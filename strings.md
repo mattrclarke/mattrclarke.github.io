@@ -19,6 +19,11 @@ Returns bool
 ```ruby
 "hello"..ends_with? "lo"   #=> true
 ```
+### .scan
+```ruby
+"37 Something street".scan(/\d+/).first
+#=> "37"
+```
 
 #### .index
 Show the index of the argument if matched
