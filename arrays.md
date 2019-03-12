@@ -1,5 +1,5 @@
 ---
-layout: code
+layout: code_post
 title: Ruby Array Methods
 ---
 
