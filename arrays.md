@@ -3,11 +3,6 @@ layout: post
 title: Ruby Array Methods
 ---
 
-#### .concat
-Join two strings
-```ruby
-"hello".concat "there"   #=> hellothere
-```
 
 ### .& .* .+ .-
 add,
@@ -25,26 +20,26 @@ add,
   => [1, 3]
   ```
 
-.assoc
+### .assoc
 ```ruby
 
 ```
 
-.bsearch
+### .bsearch
 ```ruby
 
 ```
 ### .each
 ```ruby
-
+ source.each{|x| destination << x if x < 4}
 ```
 ### .each_slice
 ```ruby
- source.each{|x| destination << x if x < 4}
+ [1,2,3,4,5,6,7,8,9,10].each_slice(5){|x| puts x}
 ```
 ### .each_with_index
 ```ruby
-[1,2,3,4,5,6,7,8,9,10].each_slice(5){|x| puts x}
+
 ```
 ### group_by
 ```ruby
@@ -52,28 +47,25 @@ add,
  #=> {1=>[1], 2=>[2, 2], 3=>[3], 4=>[4], 5=>[5]}
 ```
 
-.reverse_each
+### .reverse_each
 ```ruby
 
 ```
-### map
-```ruby
 
-```
-### product
+### .product
 ```ruby
- [1..5].product([*1..5])
+ [*1..5].product([*1..5])
 ```
-.select
+### .select
 ```ruby
  [1..100].select {|number| number % 2 == 0 }
 ```
 
-.delete
+### .delete
 ```ruby
 
 ```
-### delete_if
+### .delete_if
 ```ruby
 [1,2,3,4,5,6,7].delete_if{|i| i < 4 }
 ```
@@ -81,26 +73,41 @@ add,
 ```ruby
 
 ```
-### any?
+### .any?
 check if array contains a value
 ```ruby
-arr = [1, 2, 3]  arr.any? {|x| x == 2}
+[1, 2, 3].any? {|x| x == 2}
+# => true
 ```
 
-.flatten
+### .map
 ```ruby
 
 ```
-### flat_map
+
+### .flatten
+```ruby
+[ [1,2,3], [4,5,6] ].flatten
+ => [1, 2, 3, 4, 5, 6]
+```
+
+### .flat_map
+Maps then flattens
+```ruby
+[ [1,2,3], [4,5,6] ].flat_map{ |array| array[0] }
+1
+4
+# => [1, 4]
+array = [ [{ key: "value_1" }], [{ key: "value_2" }] ]
+array.flat_map{ |arr| arr[0][:key] }
+ => ["value_1", "value_2"]
+```
+
+### .inject
 ```ruby
 
 ```
-###  maps then flattens
-.inject
-```ruby
-
-```
-### chunk
+### .chunk
 ```ruby
 
 ```
@@ -108,13 +115,14 @@ arr = [1, 2, 3]  arr.any? {|x| x == 2}
 ```ruby
 
 ```
-### partition
-splits an array into 2 based on a condition
+### .partition
+Split an array into 2 based on a condition
 ```ruby
-(1..6).partition {|v| v.even? }  #returns  [[2, 4, 6], [1, 3, 5]]
+(1..6).partition {|v| v.even? }
+=>  [[2, 4, 6], [1, 3, 5]]
 ```
 
-.reduce
+### .reduce
 ```ruby
 
 ```
