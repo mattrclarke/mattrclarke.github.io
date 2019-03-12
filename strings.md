@@ -3,6 +3,10 @@ layout: post
 title: Ruby String Methods
 ---
 
+to_i
+to_sym
+
+
 #### .concat
 Join two strings
 ```ruby
