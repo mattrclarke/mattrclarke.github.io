@@ -186,6 +186,8 @@ Split an array into 2 based on a condition
 - all
 - any?                  # check if array contains a value arr = [1, 2, 3]  arr.any? {|x| x == 2}
 - flatten
+- include
+- exclude
 - flat_map              # maps then flattens
 - inject
 - chunk
