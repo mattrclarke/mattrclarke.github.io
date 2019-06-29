@@ -13,7 +13,6 @@ title: Rsa Tutorial boxes
 <br/>
 <img src='./rsaimages/5.png' class='inline'/>
 <br/>
-<br/>
 ### Feed page (All tasks)
 <img src='./rsaimages/6.png' class='inline'/>
 <br/>
@@ -24,7 +23,6 @@ title: Rsa Tutorial boxes
 <img src='./rsaimages/9.png' class='inline'/>
 <br/>
 <img src='./rsaimages/10.png' class='inline'/>
-<br/>
 <br/>
 ### Task Page
 <img src='./rsaimages/11.png' class='inline'/>
