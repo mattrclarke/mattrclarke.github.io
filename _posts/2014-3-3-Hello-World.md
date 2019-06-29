@@ -5,7 +5,9 @@ title: Rsa Tutorial boxes
 ### Dashboard
 Welcome to Work Skills  
 Please take a minute for a quick tour of your course - click next to continue
-![alt text](/rsaimages/1.png 'image')  
+![alt text](/rsaimages/1.png 'image')
+
+
 If you ever need to view this tutorial again, click the information marker here
 ![alt text](/rsaimages/2.png 'image')
 The units you have enrolled in will show here  
