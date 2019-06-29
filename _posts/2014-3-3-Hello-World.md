@@ -39,12 +39,13 @@ You can find learning material relating to the question here<
 ![alt text](/rsaimages/12.png 'image')
 Once you have gone over the learning material, complete the task requirement
 ![alt text](/rsaimages/13.png 'image')
-p>After you have chosen your answer for multiple choice questions, select submit
+After you have chosen your answer for multiple choice questions, select submit
 ![alt text](/rsaimages/14.png 'image')
-<p>After submitting your answer, click here to continue to the next question
+After submitting your answer, click here to continue to the next question
 ![alt text](/rsaimages/15.png 'image')
 Completion  
 Clicking here will show your results for multiple choice questions  
 When all Skills and Knowledge questions are correct, and you have completed your practical tasksthis button will allow you to submit the unit for assessment  
-Clicking it then will submit your practical tasks to an assessor to mark</p><p>You will be notified of your results as soon as marking is complete  
+Clicking it then will submit your practical tasks to an assessor to mark  
+You will be notified of your results as soon as marking is complete  
 ![alt text](/rsaimages/16.png 'image')
