@@ -1,0 +1,6 @@
+require "mini_magick"
+require 'byebug'
+
+image = MiniMagick::Image.open("image.jpg")
+
+byebug
