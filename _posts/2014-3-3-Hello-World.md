@@ -5,6 +5,8 @@ title: Rsa Tutorial boxes
 ### Dashboard
 Welcome to Work Skills  
 Please take a minute for a quick tour of your course - click next to continue
+
+
 ![alt text](/rsaimages/1.png 'image')
 
 
@@ -37,7 +39,7 @@ Tasks consist of two types
 Skills and Knowledge - Multiple choice questions  
 Practical tasks - Demonstrations of competency
 ![alt text](/rsaimages/11.png 'image')
-You can find learning material relating to the question here<
+You can find learning material relating to the question here
 ![alt text](/rsaimages/12.png 'image')
 Once you have gone over the learning material, complete the task requirement
 ![alt text](/rsaimages/13.png 'image')
