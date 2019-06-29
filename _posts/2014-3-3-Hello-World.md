@@ -3,8 +3,10 @@ layout: post
 title: Rsa Tutorial boxes
 ---
 ### Dashboard
+asd
 ![alt text](/rsaimages/1.png 'image')
-![alt text](./rsaimages/2.png 'image')
+asd  
+![alt text](/rsaimages/2.png 'image')
 ![alt text](/rsaimages/3.png 'image')
 ![alt text](/rsaimages/4.png 'image')
 ![alt text](/rsaimages/5.png 'image')
